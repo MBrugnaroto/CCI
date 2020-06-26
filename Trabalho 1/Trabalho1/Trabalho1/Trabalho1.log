@@ -1,0 +1,15 @@
+T-Spice - Tanner SPICE
+Version 16.01
+Network license
+Product Release ID: T-Spice Win64 16.01.20130407.21:15:40
+Copyright © 1988-2013 Tanner EDA
+
+	Parsing "C:\Users\vinig\OneDrive\Área de Trabalho\Area de Trabalho\Trabalho 1\Trabalho1\Trabalho1.spc"
+Fatal Error : "Trabalho1.spc" line 5 .include file "NMOS_VTG.inc" not found!
+
+Parsing                      0.01 seconds
+Overhead                     0.29 seconds
+-----------------------------------------
+Total                        0.30 seconds
+
+Simulation failed	with  1 Fatal Error

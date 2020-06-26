@@ -1,0 +1,37 @@
+# This file is defined for N-Well Process with Pin-Order as
+# Drain\Gate\Source
+# Projects extracted using this definition file : 
+#
+# Tecnologia: AMS0.35
+# Extraction Definition File
+
+connect(ndiff, Metal1, Contact)
+connect(pdiff, Metal1, Contact)
+
+connect(Metal1, Metal2, Via)
+connect(Poly, Metal1, Contact)
+connect(Metal2, Metal3, Via2)
+
+
+connect(sub, Metal1, bodyp)
+connect(N Well, Metal1, bodyn)
+
+# NMOS transistor with poly1 gate
+device = MOSFET(
+               RLAYER=NMOS;  
+               Drain=ndiff, WIDTH;
+               Gate=Poly;   
+               Source=ndiff, WIDTH;
+               Bulk=sub;
+               MODEL=NMOS;
+               )
+
+# PMOS transistor with poly1 gate
+device = MOSFET(
+               RLAYER=PMOS;  
+               Drain=pdiff, WIDTH;
+               Gate=Poly;   
+               Source=pdiff, WIDTH;
+               Bulk=N Well;
+               MODEL=PMOS;
+               )

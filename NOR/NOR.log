@@ -1,0 +1,52 @@
+T-Spice - Tanner SPICE
+Version 16.01
+Network license
+Product Release ID: T-Spice Win64 16.01.20130407.21:15:40
+Copyright © 1988-2013 Tanner EDA
+
+	Parsing "C:\Users\vinig\Downloads\arquivos leiaute\NOR.spc"
+	Including "C:\Users\vinig\Downloads\arquivos leiaute\ams35ps_T-Spice.lib"
+Warning : "ams35ps_T-Spice.lib" line 380 Expression is enclosed in {...}, but '.options compat=pspice' was not set!
+
+Start of NOR.spc
+Loaded BSIM3v33_Berkeley model library, Berkeley BSIM3 v3.3.0
+
+	Opening simulation database "C:\Users\vinig\Downloads\arquivos leiaute\NOR.tsim"
+Warning : "NOR.spc" line 24 Device M1 - Drain perimeter (PD) is zero
+Warning : "NOR.spc" line 24 Device M1 - Source perimeter (PS) is zero
+Warning : "NOR.spc" line 26 Device M3 - Drain perimeter (PD) is zero
+Warning : "NOR.spc" line 26 Device M3 - Source perimeter (PS) is zero
+
+General options:
+        threads = 1
+
+ Device and node counts:
+              MOSFETs -       4
+    MOSFET geometries -       2
+      Voltage sources -       3
+          Subcircuits -       0
+    Model Definitions -      10
+      Computed Models -       2
+    Independent nodes -       4
+       Boundary nodes -       4
+          Total nodes -       8
+*** 5 WARNING MESSAGES GENERATED DURING SETUP
+
+
+Measure information will be written to file "C:\Users\vinig\Downloads\arquivos leiaute\NOR\NOR.measure"
+
+Measurement result summary
+   pHL_nor         =   26.1622p      
+   pLH_nor         =   32.9714p      
+   tR_nor          =   56.2355p      
+   tF_nor          =    9.9868p      
+
+Parsing                      0.04 seconds
+Setup                        0.05 seconds
+DC operating point           0.04 seconds
+Transient Analysis           0.57 seconds
+Overhead                     1.05 seconds
+-----------------------------------------
+Total                        1.75 seconds
+
+Simulation completed	with  5 Warnings

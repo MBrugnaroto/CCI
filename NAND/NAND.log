@@ -1,0 +1,52 @@
+T-Spice - Tanner SPICE
+Version 16.01
+Network license
+Product Release ID: T-Spice Win64 16.01.20130407.21:15:40
+Copyright © 1988-2013 Tanner EDA
+
+	Parsing "C:\Users\vinig\Downloads\arquivos leiaute\NAND.spc"
+	Including "C:\Users\vinig\Downloads\arquivos leiaute\ams35ps_T-Spice.lib"
+Warning : "ams35ps_T-Spice.lib" line 380 Expression is enclosed in {...}, but '.options compat=pspice' was not set!
+
+Start of NAND.spc
+Loaded BSIM3v33_Berkeley model library, Berkeley BSIM3 v3.3.0
+
+	Opening simulation database "C:\Users\vinig\Downloads\arquivos leiaute\NAND.tsim"
+Warning : "NAND.spc" line 24 Device M1 - Drain perimeter (PD) is zero
+Warning : "NAND.spc" line 24 Device M1 - Source perimeter (PS) is zero
+Warning : "NAND.spc" line 26 Device M3 - Drain perimeter (PD) is zero
+Warning : "NAND.spc" line 26 Device M3 - Source perimeter (PS) is zero
+
+General options:
+        threads = 1
+
+ Device and node counts:
+              MOSFETs -       4
+    MOSFET geometries -       2
+      Voltage sources -       3
+          Subcircuits -       0
+    Model Definitions -      10
+      Computed Models -       2
+    Independent nodes -       4
+       Boundary nodes -       4
+          Total nodes -       8
+*** 5 WARNING MESSAGES GENERATED DURING SETUP
+
+
+Measure information will be written to file "C:\Users\vinig\Downloads\arquivos leiaute\NAND\NAND.measure"
+
+Measurement result summary
+   pHL_nand        =   13.4438p      
+   pLH_nand        =   18.7625p      
+   tR_nand         =   25.4475p      
+   tF_nand         =   13.8580p      
+
+Parsing                      0.01 seconds
+Setup                        0.02 seconds
+DC operating point           0.01 seconds
+Transient Analysis           0.47 seconds
+Overhead                     0.99 seconds
+-----------------------------------------
+Total                        1.51 seconds
+
+Simulation completed	with  5 Warnings

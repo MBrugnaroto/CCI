@@ -1,0 +1,63 @@
+T-Spice - Tanner SPICE
+Version 16.01
+Network license
+Product Release ID: T-Spice Win64 16.01.20130407.21:15:40
+Copyright © 1988-2013 Tanner EDA
+
+	Parsing "C:\Users\vinig\Downloads\arquivos leiaute\XOR.spc"
+	Including "C:\Users\vinig\Downloads\arquivos leiaute\ams35ps_T-Spice.lib"
+Warning : "ams35ps_T-Spice.lib" line 380 Expression is enclosed in {...}, but '.options compat=pspice' was not set!
+
+Start of XOR.spc
+Loaded BSIM3v33_Berkeley model library, Berkeley BSIM3 v3.3.0
+
+	Opening simulation database "C:\Users\vinig\Downloads\arquivos leiaute\XOR.tsim"
+Warning : "XOR.spc" line 24 Device M1 - Drain perimeter (PD) is zero
+Warning : "XOR.spc" line 24 Device M1 - Source perimeter (PS) is zero
+Warning : "XOR.spc" line 25 Device M2 - Drain perimeter (PD) is zero
+Warning : "XOR.spc" line 25 Device M2 - Source perimeter (PS) is zero
+Warning : "XOR.spc" line 28 Device M5 - Drain perimeter (PD) is zero
+Warning : "XOR.spc" line 28 Device M5 - Source perimeter (PS) is zero
+Warning : "XOR.spc" line 35 Device M12 - Drain perimeter (PD) is zero
+Warning : "XOR.spc" line 35 Device M12 - Source perimeter (PS) is zero
+Warning : "XOR.spc" line 36 Device M13 - Drain perimeter (PD) is zero
+Warning : "XOR.spc" line 36 Device M13 - Source perimeter (PS) is zero
+
+Warning : Disabling printout of duplicate warning messages.
+        : 	Use '.options maxmsg=0' to view all warnings,
+        : 	or increase maxmsg from 5 to view more messages.
+
+
+General options:
+        threads = 1
+
+ Device and node counts:
+              MOSFETs -      22
+    MOSFET geometries -       6
+      Voltage sources -       3
+          Subcircuits -       0
+    Model Definitions -      10
+      Computed Models -       2
+    Independent nodes -      13
+       Boundary nodes -       4
+          Total nodes -      17
+*** 12 WARNING MESSAGES GENERATED DURING SETUP
+
+
+Measure information will be written to file "C:\Users\vinig\Downloads\arquivos leiaute\XOR\XOR.measure"
+
+Measurement result summary
+   pHL_or          =  238.1723p      
+   pLH_or          =  187.4058p      
+   tR_or           =   26.8463p      
+   tF_or           =   13.0757p      
+
+Parsing                      0.02 seconds
+Setup                        0.04 seconds
+DC operating point           0.04 seconds
+Transient Analysis           0.59 seconds
+Overhead                     0.99 seconds
+-----------------------------------------
+Total                        1.67 seconds
+
+Simulation completed	with  12 Warnings

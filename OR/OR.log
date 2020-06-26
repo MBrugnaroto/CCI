@@ -1,0 +1,56 @@
+T-Spice - Tanner SPICE
+Version 16.01
+Network license
+Product Release ID: T-Spice Win64 16.01.20130407.21:15:40
+Copyright © 1988-2013 Tanner EDA
+
+	Parsing "C:\Users\vinig\Downloads\arquivos leiaute\OR.spc"
+	Including "C:\Users\vinig\Downloads\arquivos leiaute\ams35ps_T-Spice.lib"
+Warning : "ams35ps_T-Spice.lib" line 380 Expression is enclosed in {...}, but '.options compat=pspice' was not set!
+
+Start of OR.spc
+Loaded BSIM3v33_Berkeley model library, Berkeley BSIM3 v3.3.0
+
+	Opening simulation database "C:\Users\vinig\Downloads\arquivos leiaute\OR.tsim"
+Warning : "OR.spc" line 24 Device M1 - Drain perimeter (PD) is zero
+Warning : "OR.spc" line 24 Device M1 - Source perimeter (PS) is zero
+Warning : "OR.spc" line 26 Device M3 - Drain perimeter (PD) is zero
+Warning : "OR.spc" line 26 Device M3 - Source perimeter (PS) is zero
+Warning : "OR.spc" line 27 Device M4 - Drain perimeter (PD) is zero
+Warning : "OR.spc" line 27 Device M4 - Source perimeter (PS) is zero
+Warning : "OR.spc" line 29 Device M6 - Drain perimeter (PD) is zero
+Warning : "OR.spc" line 29 Device M6 - Source perimeter (PS) is zero
+
+General options:
+        threads = 1
+
+ Device and node counts:
+              MOSFETs -       6
+    MOSFET geometries -       4
+      Voltage sources -       3
+          Subcircuits -       0
+    Model Definitions -      10
+      Computed Models -       2
+    Independent nodes -       5
+       Boundary nodes -       4
+          Total nodes -       9
+*** 9 WARNING MESSAGES GENERATED DURING SETUP
+
+
+Measure information will be written to file "C:\Users\vinig\Downloads\arquivos leiaute\OR\OR.measure"
+
+Measurement result summary
+   pHL_or          =  153.9259p      
+   pLH_or          =   -2.0196n      
+   tR_or           =   23.5921p      
+   tF_or           =   18.1549p      
+
+Parsing                      0.02 seconds
+Setup                        0.03 seconds
+DC operating point           0.00 seconds
+Transient Analysis           0.50 seconds
+Overhead                     0.96 seconds
+-----------------------------------------
+Total                        1.51 seconds
+
+Simulation completed	with  9 Warnings

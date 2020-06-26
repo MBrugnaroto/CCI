@@ -1,0 +1,48 @@
+T-Spice - Tanner SPICE
+Version 16.01
+Network license
+Product Release ID: T-Spice Win64 16.01.20130407.21:15:40
+Copyright � 1988-2013 Tanner EDA
+
+	Parsing "C:\Users\vinig\OneDrive\햞ea de Trabalho\Area de Trabalho\Trabalho 1\nand2.spc"
+	Including "C:\Users\vinig\OneDrive\햞ea de Trabalho\Area de Trabalho\Trabalho 1\NMOS_VTG.inc"
+	Including "C:\Users\vinig\OneDrive\햞ea de Trabalho\Area de Trabalho\Trabalho 1\PMOS_VTG.inc"
+
+Start of nand2.spc
+Loaded BSIM4v450 model library, Berkeley BSIM4 v4.5.0
+
+	Opening simulation database "C:\Users\vinig\OneDrive\햞ea de Trabalho\Area de Trabalho\Trabalho 1\nand2.tsim"
+
+General options:
+        threads = 1
+
+ Device and node counts:
+              MOSFETs -       4
+    MOSFET geometries -       2
+           Capacitors -       1
+      Voltage sources -       3
+          Subcircuits -       1
+    Model Definitions -       2
+      Computed Models -       2
+    Independent nodes -      18
+       Boundary nodes -       4
+          Total nodes -      22
+
+Measure information will be written to file "C:\Users\vinig\OneDrive\햞ea de Trabalho\Area de Trabalho\Trabalho 1\nand2\nand2.measure"
+
+Measurement result summary
+   t_HL            =   77.4613p      
+   t_LH            =   20.5193p      
+   t_F             =   33.4081p      
+   t_R             =  133.9062p      
+   consumo         =   -1.8860u      
+
+Parsing                      0.04 seconds
+Setup                        0.01 seconds
+DC operating point           0.01 seconds
+Transient Analysis           0.28 seconds
+Overhead                     0.90 seconds
+-----------------------------------------
+Total                        1.24 seconds
+
+Simulation completed

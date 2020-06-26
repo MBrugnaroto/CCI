@@ -1,0 +1,51 @@
+T-Spice - Tanner SPICE
+Version 16.01
+Network license
+Product Release ID: T-Spice Win64 16.01.20130407.21:15:40
+Copyright � 1988-2013 Tanner EDA
+
+	Parsing "C:\Users\vinig\OneDrive\햞ea de Trabalho\Trabalho 1\Trabalho1.spc"
+	Including "C:\Users\vinig\OneDrive\햞ea de Trabalho\Trabalho 1\NMOS_VTG.inc"
+	Including "C:\Users\vinig\OneDrive\햞ea de Trabalho\Trabalho 1\PMOS_VTG.inc"
+
+Start of Trabalho1.spc
+Loaded BSIM4v450 model library, Berkeley BSIM4 v4.5.0
+Warning : "Trabalho1.spc" line 8 All terminal nodes of V0 are equal, and the device will be ignored.
+
+	Opening simulation database "C:\Users\vinig\OneDrive\햞ea de Trabalho\Trabalho 1\Trabalho1.tsim"
+
+General options:
+        threads = 2
+
+ Device and node counts:
+              MOSFETs -     108
+    MOSFET geometries -       4
+           Capacitors -       4
+      Voltage sources -       8
+          Subcircuits -      43
+    Model Definitions -       2
+      Computed Models -       2
+    Independent nodes -     486
+       Boundary nodes -       8
+          Total nodes -     494
+*** 1 WARNING MESSAGE GENERATED DURING SETUP
+
+
+Measure information will be written to file "C:\Users\vinig\OneDrive\햞ea de Trabalho\Trabalho 1\Trabalho1\Trabalho1.measure"
+
+Measurement result summary
+   t_R_carryOut1   =       not found
+   t_F_carryOut1   =       not found
+   t_R_Out1        =       not found
+   t_F_Out1        =       not found
+   tHL_Out1        =       not found
+
+Parsing                      0.01 seconds
+Setup                        0.03 seconds
+DC operating point           0.05 seconds
+Transient Analysis         186.22 seconds
+Overhead                     0.68 seconds
+-----------------------------------------
+Total                      186.99 seconds
+
+Simulation completed	with  1 Warning

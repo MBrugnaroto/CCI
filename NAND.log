@@ -1,0 +1,25 @@
+Circuit: ********************************************************************************
+
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Direct Newton iteration for .op point succeeded.
+
+Date: Sat Jun 29 14:46:36 2019
+Total elapsed time: 0.178 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 2352
+traniter = 2345
+tranpoints = 1115
+accept = 1101
+rejected = 14
+matrix size = 8
+fillins = 0
+solver = Normal
+Matrix Compiler1: 336 bytes object code size  0.3/0.3/[0.1]
+Matrix Compiler2: 624 bytes object code size  0.3/0.4/[0.2]
+
